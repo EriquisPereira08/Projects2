@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    background-color: rgb(219, 227, 248);
+}
+form{
+    margin: 0 auto;
+    width: 96%;
+    max-width: 600px;
+}
+form fieldset{
+    padding: 0 80px;
+    border: 1px solid purple;
+    text-align: center;
+}
+
+form legend{
+    font-size: 20px;
+    color: purple;
+}
+form input[type=text]{
+    color: blueviolet;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width:calc(80% + 26px);
+    padding: 10px 13px;
+    border: solid 1px purple;
+}
+
+form input[type=text]:focus, form select:focus, form textarea:focus{
+    outline: 0;
+}
+
+form select{
+    color: blueviolet;
+    width:calc(80% + 26px);
+    display: inline-block;
+    padding: 10px 13px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: solid 1px purple;
+  
+}
+
+form select option:nth-last-of-type(1){
+    color: brown;
+}
+
+form select option:nth-child(2){
+    color: darkgreen;
+}
+
+form select option[disabled]{
+    color: blueviolet;
+}
+
+form h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blueviolet;
+}
+.input{
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.input span{
+    font-size: 20px;
+    color: purple;
+}
+
+form input[type=submit]{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    border: 1px black solid;
+    color: rgb(68, 4, 68);
+    background-color: rgb(249, 252, 97);
+    width: 120px;
+    height: 40px;
+    cursor:progress;
+}
+form input[type=submit]:hover{
+    color: rgb(208, 255, 0);
+    background-color: crimson;
+}
+
+form textarea{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width:calc(80% + 26px);
+    padding: 10px 13px;
+    resize: none;
+    border: 1px black solid;
+    height: 140px;
+    font-family: 'Tahoma', Segoe UI, Geneva, Verdana, sans-serif ;
+}
